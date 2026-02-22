@@ -1,0 +1,7 @@
+v 3
+d wordcloud2_stata package repository
+d Fahad Mirza
+d https://github.com/fahad-mirza/wordcloud2_stata
+
+p wordcloud2 Interactive word cloud generator for Stata
+e
