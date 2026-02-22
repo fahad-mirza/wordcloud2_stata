@@ -314,24 +314,24 @@ quality loss and can be edited in vector graphics applications.
 All examples below use the following synthetic dataset of open-ended survey
 responses. Enter or load it before running any of the examples.
 
-{phang2}{cmd:. clear}{p_end}
-{phang2}{cmd:. input str200 response}{p_end}
-{phang2}{cmd:. "The product quality is excellent and the service was outstanding"}{p_end}
-{phang2}{cmd:. "Great quality but delivery was slow and customer service needs improvement"}{p_end}
-{phang2}{cmd:. "Amazing experience with the product and very helpful support team"}{p_end}
-{phang2}{cmd:. "Poor quality product arrived damaged and customer service was unhelpful"}{p_end}
-{phang2}{cmd:. "Outstanding quality and excellent delivery speed highly recommend"}{p_end}
-{phang2}{cmd:. "The service team was helpful but the product quality could be better"}{p_end}
-{phang2}{cmd:. "Excellent customer experience product quality exceeded my expectations"}{p_end}
-{phang2}{cmd:. "Good quality product but packaging was damaged during delivery"}{p_end}
-{phang2}{cmd:. "Highly recommend excellent quality and very fast delivery service"}{p_end}
-{phang2}{cmd:. "The support team was amazing and the product quality is outstanding"}{p_end}
-{phang2}{cmd:. "Product quality is good but customer service response was very slow"}{p_end}
-{phang2}{cmd:. "Great delivery service but product quality did not meet expectations"}{p_end}
-{phang2}{cmd:. "Excellent quality product and outstanding customer service experience"}{p_end}
-{phang2}{cmd:. "The product arrived damaged but the customer service team was helpful"}{p_end}
-{phang2}{cmd:. "Amazing support team excellent delivery and outstanding product quality"}{p_end}
-{phang2}{cmd:. end}{p_end}
+{phang2}{cmd:clear}{p_end}
+{phang2}{cmd:input str200 response}{p_end}
+{phang2}{cmd:"The product quality is excellent and the service was outstanding"}{p_end}
+{phang2}{cmd:"Great quality but delivery was slow and customer service needs improvement"}{p_end}
+{phang2}{cmd:"Amazing experience with the product and very helpful support team"}{p_end}
+{phang2}{cmd:"Poor quality product arrived damaged and customer service was unhelpful"}{p_end}
+{phang2}{cmd:"Outstanding quality and excellent delivery speed highly recommend"}{p_end}
+{phang2}{cmd:"The service team was helpful but the product quality could be better"}{p_end}
+{phang2}{cmd:"Excellent customer experience product quality exceeded my expectations"}{p_end}
+{phang2}{cmd:"Good quality product but packaging was damaged during delivery"}{p_end}
+{phang2}{cmd:"Highly recommend excellent quality and very fast delivery service"}{p_end}
+{phang2}{cmd:"The support team was amazing and the product quality is outstanding"}{p_end}
+{phang2}{cmd:"Product quality is good but customer service response was very slow"}{p_end}
+{phang2}{cmd:"Great delivery service but product quality did not meet expectations"}{p_end}
+{phang2}{cmd:"Excellent quality product and outstanding customer service experience"}{p_end}
+{phang2}{cmd:"The product arrived damaged but the customer service team was helpful"}{p_end}
+{phang2}{cmd:"Amazing support team excellent delivery and outstanding product quality"}{p_end}
+{phang2}{cmd:end}{p_end}
 
 {pstd}{ul:Example 1 — Basic call using all defaults}{p_end}
 
