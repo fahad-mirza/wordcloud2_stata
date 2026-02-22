@@ -35,23 +35,35 @@
 
 ## Installation
 
-Place `wordcloud2.ado` and `wordcloud2.sthlp` in your personal ado path. To find yours:
+### Option 1: Direct install (recommended)
+
+Run this single command in Stata to download and install `wordcloud2` immediately:
 
 ```stata
-adopath
+net install wordcloud2, from("https://raw.githubusercontent.com/fahad-mirza/wordcloud2_stata/main/") replace
 ```
 
-Typical locations:
+### Option 2: Inspect before installing
 
-| OS | Path |
-|---|---|
-| Windows | `C:\ado\personal\` |
-| Mac / Linux | `~/ado/personal/` |
-
-Or add the folder containing the files to your adopath for the session:
+If you'd like to review the package description first, run `net describe` and then confirm the install:
 
 ```stata
-adopath + "C:\path\to\your\folder"
+net describe wordcloud2, from("https://raw.githubusercontent.com/fahad-mirza/wordcloud2_stata/main/")
+```
+
+This displays the package name, version, author, and the list of files that will be installed. When you're ready, install with:
+
+```stata
+net install wordcloud2, replace
+```
+
+> **SSL note:** If you receive an SSL error, run `set sslrelax on` before either command.
+
+### Verify the installation
+
+```stata
+which wordcloud2
+help wordcloud2
 ```
 
 ### Optional dependency - color palettes
@@ -307,6 +319,8 @@ wordcloud2,                                  ///
 wordcloud2_stata/
 ├── wordcloud2.ado          # Main command
 ├── wordcloud2.sthlp        # Stata helpfile (type: help wordcloud2)
+├── wordcloud2.pkg          # Package manifest (required for net install)
+├── stata.toc               # Repository index (required for net install)
 ├── wordcloud2_example.do   # Example do-file with synthetic data
 ├── screenshots/
 │   ├── Wordcloud_Example_1.png   # Default dark-background output
@@ -318,19 +332,21 @@ wordcloud2_stata/
 
 ## Authors
 
-**Fahad Mirza** (Author)
+**Fahad Mirza** (Author and Developer)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fahad-mirza/)
 [![Medium](https://img.shields.io/badge/Blog-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@fahad-mirza)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/fahad-mirza/)
 
-**Claude** (Anthropic) | Editor and co-developer. This program was built collaboratively between the author and Claude, which assisted with algorithm implementation, debugging, and feature development throughout.
+**Claude** (Anthropic) | Editor and co-developer. 
 
 ---
 
 ## Note
 
 `wordcloud2` is currently in **Beta**. The core functionality is stable but improvements, new options, and refinements are planned over time. Feedback and bug reports are welcome - please open an issue on this repository.
+
+This program was built collaboratively between the author and Claude, which assisted with algorithm implementation, debugging, and feature development throughout.
 
 ---
 
