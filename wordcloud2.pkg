@@ -12,7 +12,7 @@ d collision-free Archimedean spiral layout algorithm.
 d
 d Requires: Stata 15 or later
 d
-d Distribution-Date: 20260222
+d Distribution-Date: 20260227
 d Version: 1.2.0 (Beta)
 d
 f wordcloud2.ado

@@ -1,5 +1,5 @@
 {smcl}
-{* *! wordcloud2 v1.2.0 (Beta)  Fahad Mirza & Claude  21feb2026}{...}
+{* *! wordcloud2 v1.2.0 (Beta)  Fahad Mirza & Claude  27feb2026}{...}
 {viewerjumpto "Syntax" "wordcloud2##syntax"}{...}
 {viewerjumpto "Description" "wordcloud2##description"}{...}
 {viewerjumpto "Options" "wordcloud2##options"}{...}

@@ -114,7 +114,6 @@ program define wordcloud2
     if "`_tc1'" != "#" & !regexm(`"`title_color'"', "^[a-zA-Z]") {
         di as error "wordcloud2: title color() is not a valid CSS color: `title_color'"
         di as error "  Use: color(#ff0000)  color(white)  color(rgb(0,128,255))"
-        restore
         exit 198
     }
 
@@ -122,7 +121,6 @@ program define wordcloud2
     if !regexm(`"`title_size'"', "[0-9]") {
         di as error "wordcloud2: title size() is not a valid CSS size: `title_size'"
         di as error "  Use: size(2em)  size(24px)  size(1.5rem)  size(120%)"
-        restore
         exit 198
     }
 
@@ -147,7 +145,6 @@ program define wordcloud2
     if "`_bg1'" != "#" & !regexm(`"`bgcolor'"', "^[a-zA-Z]") {
         di as error "wordcloud2: bgcolor() is not a valid CSS color: `bgcolor'"
         di as error "  Use: bgcolor(#16213e)  bgcolor(white)  bgcolor(rgb(0,30,60))"
-        restore
         exit 198
     }
 
