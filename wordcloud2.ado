@@ -380,8 +380,8 @@ program define wordcloud2
 
     // ── Head ──────────────────────────────────────────────────────────────────
     file write _wcf `"<!DOCTYPE html>"' _n
-    file write _wcf `"<html lang="en"><head>"' _n
-    file write _wcf `"<meta charset="UTF-8">"' _n
+    file write _wcf `"<html lang='en'><head>"' _n
+    file write _wcf `"<meta charset='UTF-8'>"' _n
     file write _wcf `"<title>`title_text'</title>"' _n
     file write _wcf `"<style>"' _n
     file write _wcf `"  body{margin:0;background:`bgcolor';display:flex;flex-direction:column;"' _n
