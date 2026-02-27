@@ -86,7 +86,7 @@ program define wordcloud2
         local _topts     = strtrim(substr(`"`title'"', `_tcomma' + 1, .))
     }
     else {
-        local title_text = `"`title'"`
+        local title_text = `"`title'"'
         local _topts     = ""
     }
 
@@ -105,7 +105,7 @@ program define wordcloud2
             local title_size = "`_rawsize'em"
         }
         else {
-            local title_size = `"`_rawsize'"`
+            local title_size = `"`_rawsize'"'
         }
     }
 
